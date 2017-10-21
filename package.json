@@ -1,0 +1,22 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "this is socket server which get information from client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-driver-5": "node driverFive.js",
+    "start-driver-4": "node driverFour.js",
+    "start-driver-3": "node driverThree.js",
+    "start-driver-2": "node driverTwo.js",
+    "start-driver-1": "node driverOne.js"
+  },
+  "author": "Tariqul Islam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}
